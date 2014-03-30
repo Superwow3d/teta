@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <title>TETA</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content=""/>
+
+    <link rel="stylesheet" href="/media/css/main.css"/>
+</head>
+<body>
+
+<div id="main">
+    <div id="top-nav">
+        <img id="main-img" src="/media/images/logo-main.png" />
+        <div id="top-menu">
+            <a href="#">О НАС</a>
+            <a href="#">ПОРТФОЛИО</a>
+            <a href="#">КОНТАКТЫ</a>
+        </div>
+    </div>
+    <hr />
+    <div id="header">
+        <div id="head">
+            <span>РАЗРАБОТКА И ВЕРСТКА САЙТОВ</span>
+        </div>
+    </div>
+    <hr style="margin-top: -10px;"/>
+    <div id="action-buttons">
+        <a href="#">
+            <img class="button" src="/media/images/portfolio-btn.png" />
+        </a>
+        <a href="#">
+            <img class="button" src="/media/images/call-btn.png" />
+        </a>
+    </div>
+    <div id="action-list">
+        <hr />
+        <h1>МЫ УМЕЕМ ДЕЛАТЬ:</h1>
+        <hr />
+        <div class="action-menu">
+            <a href="#"><img src="/media/images/our-work1.png" /></a>
+            <p><b>Дизайн</b></p>
+            <p>Мы можем разработать дизайн сайта специально для вас.</p>
+        </div>
+        <div class="action-menu">
+            <a href="#"><img src="/media/images/our-work1.png" /></a>
+            <p><b>Верстка</b></p>
+            <p>Мы можем сверстать сайт с уже готового дизайна.</p>
+        </div>
+        <div class="action-menu">
+            <a href="#"><img src="/media/images/our-work1.png" /></a>
+            <p><b>Разработка с нуля</b></p>
+            <p>Мы можем разработать для вас сайт с нуля.</p>
+        </div>
+        <div class="action-menu">
+            <a href="#"><img src="/media/images/our-work1.png" /></a>
+            <p><b>Копирайтинг</b></p>
+            <p>Мы можем написать для вашего сайта уникальные тексты.</p>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <hr />
+    <div id="action-buttons">
+        <a href="#">
+            <img class="button" src="/media/images/portfolio-btn.png" />
+        </a>
+        <a href="#">
+            <img class="button" src="/media/images/call-btn.png" />
+        </a>
+    </div>
+</div>
+<div id="footer">
+    <div id="footer-width">
+        <img id="logo-footer" src="/media/images/logo-footer.png" />
+        <div id="phone">Телефон: +7 778 58 59 155</div>
+        <p>Все права защищены (c) 2014</p>
+    </div>
+</div>
+    <!-- Content -->
+    <div class="content">
+        {% block content %}
+        {% endblock content %}
+    </div>
+</div>
+</body>
+</html>
